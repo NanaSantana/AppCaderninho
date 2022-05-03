@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCaderninho.EnsinoMedio.MateriasMedioTerceiro">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Button
+                Text="Biologia"
+                Clicked="BiologiaTerceiro"/>
+            <Button
+                Text="Educação Fisica"
+                Clicked="EdFisicaTerceiro"/>
+            <Button
+                Text="Filosofia"
+                Clicked="FisologiaTerceiro"/>
+            <Button
+                Text="Fisica"
+                Clicked="FisicaTerceiro"/>
+            <Button
+                Text="Geografia"
+                Clicked="GeografiaTerceiro"/>
+            <Button
+                Text="Historia"
+                Clicked="HistoriaTerceiro"/>
+            <Button
+                Text="Ingles"
+                Clicked="InglesTerceiro"/>
+            <Button
+                Text="LPL"
+                Clicked="LPLTerceiro"/>
+            <Button
+                Text="Matematica"
+                Clicked="MatematicaTerceiro"/>
+            <Button
+                Text="Quimica"
+                Clicked="QuimicaTerceiro"/>
+            <Button
+                Text="Sociologia"
+                Clicked="SociologiaTerceiro"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCaderninho.EnsinoMedio.MateriasTecnicoTerceiro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                Text="TCC"
+                Clicked="TCCTerceiro"/>
+            <Button
+                Text="Programação Mobile II"
+                Clicked="MobileTerceiro"/>
+            <Button
+                Text="Internet"
+                Clicked="InternetTerceiro"/>
+            <Button
+                Text="Programação Web III"
+                Clicked="WebTerceiro"/>
+            <Button
+                Text="Qualidade e Teste de Software"
+                Clicked="SotfwareTerceiro"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

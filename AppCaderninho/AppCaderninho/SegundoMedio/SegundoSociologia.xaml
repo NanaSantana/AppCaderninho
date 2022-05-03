@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCaderninho.SegundoMedio.SegundoSociologia">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Como a humanidade se organiza em sociedade, quais são seus hábitos, costumes e como se relaciona entre si."
+                HorizontalOptions="CenterAndExpand"
+                Margin="10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

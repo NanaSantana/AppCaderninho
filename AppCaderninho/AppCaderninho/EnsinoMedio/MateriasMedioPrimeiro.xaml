@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCaderninho.EnsinoMedio.MateriasMedioPrimeiro">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <!--aqui esta a separação entre materias do Primeiro ano,
+                ao clicar nelas, sera possivel ver o conteudo 
+                estudado nesse ano-->
+            <Button
+                Text="Arte"
+                Clicked="ArtePrimeiro"/>
+            <Button
+                Text="Biologia"
+                Clicked="BiologiaPrimeiro"/>
+            <Button
+                Text="Educação Fisica"
+                Clicked="EdFisicaPrimeiro"/>
+            <Button
+                Text="Filosofia"
+                Clicked="FilosofiaPrimeiro"/>
+            <Button
+                Text="Fisica"
+                Clicked="FisicaPrimeiro"/>
+            <Button
+                Text="Geografia"
+                Clicked="GeografiaPrimeiro"/>
+            <Button
+                Text="Historia"
+                Clicked="HistoriaPrimeiro"/>
+            <Button
+                Text="Ingles"
+                Clicked="InglesPrimeiro"/>
+            <Button
+                Text="LPL"
+                Clicked="LPLPrimeiro"/>
+            <Button
+                Text="Matematica"
+                Clicked="MatematicaPrimeiro"/>
+            <Button
+                Text="Quimica"
+                Clicked="QuimicaPrimeiro"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

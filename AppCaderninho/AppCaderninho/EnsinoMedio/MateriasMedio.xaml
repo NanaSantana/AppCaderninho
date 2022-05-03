@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCaderninho.EnsinoMedio.MateriasMedio">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <!--aqui tem as separações por ano, 
+                assim como na tela inicial, 
+                elas levaram o usuario ate a
+                a pagina desejada-->
+            
+            <Button
+                Text="1° ano"
+                Clicked="btnPrimeiroAno"/>
+
+            <Button
+                Text="2° ano"
+                Clicked="btnSegundoAno"/>
+
+            <Button
+                Text="3° ano"
+                Clicked="btnTerceiroAno"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
