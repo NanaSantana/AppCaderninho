@@ -7,6 +7,9 @@
             <Label Text="Origem da Vida, Citologia, Reprodução, Embriologia, Histologia, Seres Vivos, Genética, Evolução e Ecologia."
                 HorizontalOptions="CenterAndExpand"
                 Margin="10"/>
+            <Image x:Name="gatoBiologia"
+                   WidthRequest="100"
+                   HeightRequest="500"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

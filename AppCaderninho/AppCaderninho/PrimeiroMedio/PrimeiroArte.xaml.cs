@@ -15,6 +15,8 @@ namespace AppCaderninho.PrimeiroMedio
         public PrimeiroArte()
         {
             InitializeComponent();
+
+            GatoArte.Source = ImageSource.FromResource("AppCaderninho.NovaPasta.arte.png");
         }
     }
 }

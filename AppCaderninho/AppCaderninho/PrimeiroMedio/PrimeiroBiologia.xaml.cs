@@ -15,6 +15,8 @@ namespace AppCaderninho.PrimeiroMedio
         public PrimeiroBiologia()
         {
             InitializeComponent();
+
+            gatoBiologia.Source = ImageSource.FromResource("AppCaderninho.NovaPasta.biologia.png");
         }
     }
 }

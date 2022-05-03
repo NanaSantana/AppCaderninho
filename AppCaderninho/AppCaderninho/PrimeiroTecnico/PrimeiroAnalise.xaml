@@ -7,6 +7,8 @@
             <Label Text="Aprendendo a Analisar a criação de sistemas"
                 HorizontalOptions="CenterAndExpand"
                 Margin="10"/>
+            <Image x:Name="GatoAnalise"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

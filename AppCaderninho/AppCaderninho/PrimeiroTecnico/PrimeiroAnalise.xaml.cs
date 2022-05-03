@@ -15,6 +15,8 @@ namespace AppCaderninho.PrimeiroTecnico
         public PrimeiroAnalise()
         {
             InitializeComponent();
+
+            GatoAnalise.Source = ImageSource.FromResource("AppCaderninho.NovaPasta.dsss.png");
         }
     }
 }

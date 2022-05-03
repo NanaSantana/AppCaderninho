@@ -7,6 +7,9 @@
             <Label Text="Conceitos e técnicas de diversos estilos artísticos."
                 HorizontalOptions="CenterAndExpand"
                 Margin="10"/>
+            <Image x:Name="GatoArte"
+                   WidthRequest="100"
+                   HeightRequest="500"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

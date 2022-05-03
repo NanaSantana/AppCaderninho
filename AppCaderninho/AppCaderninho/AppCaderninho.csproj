@@ -11,6 +11,100 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="NovaPasta\arte.png" />
+    <None Remove="NovaPasta\biologia.png" />
+    <None Remove="NovaPasta\ds.png" />
+    <None Remove="NovaPasta\dss.png" />
+    <None Remove="NovaPasta\dsss.png" />
+    <None Remove="NovaPasta\dssss.png" />
+    <None Remove="NovaPasta\dsssss.png" />
+    <None Remove="NovaPasta\ed_fisica.png" />
+    <None Remove="NovaPasta\etica.png" />
+    <None Remove="NovaPasta\filosofia.png" />
+    <None Remove="NovaPasta\fisica.png" />
+    <None Remove="NovaPasta\geografia.png" />
+    <None Remove="NovaPasta\historia.png" />
+    <None Remove="NovaPasta\ingles.png" />
+    <None Remove="NovaPasta\matematica.png" />
+    <None Remove="NovaPasta\medio.png" />
+    <None Remove="NovaPasta\portugues.png" />
+    <None Remove="NovaPasta\primeiro.png" />
+    <None Remove="NovaPasta\quimica.png" />
+    <None Remove="NovaPasta\segundo.png" />
+    <None Remove="NovaPasta\sociologia.png" />
+    <None Remove="NovaPasta\terceiro.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="NovaPasta\arte.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\biologia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\ds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\dss.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\dsss.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\dssss.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\dsssss.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\ed_fisica.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\etica.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\filosofia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\fisica.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\geografia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\historia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\ingles.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\matematica.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\medio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\portugues.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\primeiro.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\quimica.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\segundo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\sociologia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta\terceiro.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
