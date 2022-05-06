@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCaderninho.MainPage">
-
+   
     <!--aqui é a pagina inicial :D
         esses dois botões separam as materias do ensino medio com do curso tecnico-->
     <StackLayout>

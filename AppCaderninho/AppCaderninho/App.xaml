@@ -4,5 +4,39 @@
              x:Class="AppCaderninho.App">
     <Application.Resources>
 
+        <!--definindo estilos no app.xaml para assim ir para todos as paginass :D
+        
+        aqui mudei a cor da barrinha de cima-->
+        <Style TargetType="NavigationPage" ApplyToDerivedTypes="True">
+            <Setter Property="BarBackgroundColor" Value="#262626"/>
+            <Setter Property="BarTextColor" Value="#EEEEEE"/>
+        </Style>
+        
+        <!--aqui mudei o fundo-->
+        <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+            <Setter Property="BackgroundColor" Value="#000000"/>
+        </Style>
+
+        <!--aqui mudei as coisas do botão-->
+        <Style TargetType="Button" ApplyToDerivedTypes="True">
+            <Setter Property="BackgroundColor" Value="#262626"/>
+            <Setter Property="TextColor" Value="#EEEEEE"/>
+            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+
+        <!--aqui mudei o stacklayout-->
+        <Style TargetType="StackLayout">
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+
+        <!--aqui mudei os textos :D-->
+        <Style TargetType="Label" ApplyToDerivedTypes="True">
+            <Setter Property="TextColor" Value="#EEEEEE"/>
+            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+        </Style>
+        
     </Application.Resources>
 </Application>
